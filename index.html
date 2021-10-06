@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header >
+        
+        <a href="#" class="logo">Isadora</a>
+        
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars" ><a href="#"><img src="images/menu.svg" onclick="blackScreen('visible')" ondblclick="blackScreen('hidden')"></a></label>
+        
+        
+    </header>
+    <div class="blackScreen">
+        <div class="leftBox">
+            <div class="topLeft" data-aos="fade-down"></div>
+            <div class="bottomLeft" data-aos="fade-left"></div>
+        </div>
+        <div class="midBox">
+            <div class="centered" data-aos="fade-up"></div>
+        </div>
+        <div class="rightBox">
+            <div class="topRight" data-aos="fade-down"></div>
+            <div class="bottomRight" data-aos="fade-right"></div>
+        </div>
+        
+    
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <a href="https://www.marvel.com/">
+            <img src="images/drs.jpg" onmouseenter="changeBgColor('rgb(158, 148, 148)');sliderR('0');text2('25%') /* ;layer2('images/black.jfif') */ " 
+                                      onmouseleave="changeBgColor('#fff');sliderR('-100%');text2('-100%')/*; layer2('images/loki2.jfif') */">
+        </a>
+            <div class="content1">
+            </div>
+            <div class="text1" data-aos = "fade-down">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+     <div class="middle">
+         <div class="scrollbar">
+              
+             <img src="images/earth_adobespark.png" id="scroller" >
+             
+
+         </div>
+
+     </div>
+        
+        <div class="right">
+            <a href="https://www.marvel.com/">
+            <img src="images/loki2.jfif" onmouseenter="changeBgColor('rgb(73, 116, 182)');sliderL('0');text1('25%') /*;layer1('images/darkblue.png')*/" 
+                                         onmouseleave="changeBgColor('#fff');sliderL('-100%');text1('-100%')/*; layer1('images/drs.jpg')*/">
+                             </a>            
+            <div class="content2">
+            </div>
+            <div class="text2">
+                Lorem ipsum dolor sit amet jhun.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="left">
+            <a href="https://www.marvel.com/">
+        
+            <img src="images/thanos.jpg" onmouseenter="changeBgColor('yellowgreen');slider4('0');text4('25%') /* ;layer2('images/black.jfif') */ " 
+                                         onmouseleave="changeBgColor('#fff');slider4('-100%');text4('-100%')/*; layer2('images/loki2.jfif') */">
+</a>
+            <div class="content3">
+            </div>
+            <div class="text3" data-aos = "fade-down">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        
+        
+        <div class="right">
+            <a href="https://www.marvel.com/">
+
+            <img src="images/thor.jpg" onmouseenter="changeBgColor('rgb(201, 81, 81)');slider3('0');text3('25%') /*;layer1('images/darkblue.png')*/" 
+                                       onmouseleave="changeBgColor('#fff');slider3('-100%');text3('-100%')/*; layer1('images/drs.jpg')*/">
+</a>
+            <div class="content4">
+            </div>
+            <div class="text4">
+                Lorem ipsum dolor sit amet jhun.
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <a href="https://www.marvel.com/">
+        
+            <img src="images/ironman.jfif" onmouseenter="changeBgColor('rgb(167, 167, 38)');slider6('0');text6('25%') /* ;layer2('images/black.jfif') */ " 
+                                           onmouseleave="changeBgColor('#fff');slider6('-100%');text6('-100%')/*; layer2('images/loki2.jfif') */">
+</a>
+            <div class="content5">
+            </div>
+            <div class="text5" data-aos = "fade-down">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+        
+        
+        <div class="right">
+            <a href="https://www.marvel.com/">
+
+            <img src="images/spiderman.jpeg" onmouseenter="changeBgColor('black');slider5('0');text5('25%') /*;layer1('images/darkblue.png')*/" 
+                                             onmouseleave="changeBgColor('#fff');slider5('-100%');text5('-100%')/*; layer1('images/drs.jpg')*/">
+</a>
+            <div class="content6">
+            </div>
+            <div class="text6">
+                Lorem ipsum dolor sit amet jhun.
+            </div>
+        </div>
+    </div>
+
+
+ 
+    
+
+
+
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
